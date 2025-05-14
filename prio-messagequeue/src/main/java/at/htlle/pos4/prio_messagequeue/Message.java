@@ -1,6 +1,7 @@
 package at.htlle.pos4.prio_messagequeue;
 
 public class Message {
+    //Push hat nicht funktioniert Test 2
     private final boolean isPriority;
     private final String content;
 

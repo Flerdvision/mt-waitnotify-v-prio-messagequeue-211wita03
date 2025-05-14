@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class PriorityMessageQueue {
+    //Push hat nicht funktioniert Test 2
     private final Queue<Message> priorityQueue = new LinkedList<>();
     private final Queue<Message> normalQueue = new LinkedList<>();
     private final int maxSize;

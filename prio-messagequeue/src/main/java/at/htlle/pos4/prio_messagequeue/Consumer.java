@@ -3,6 +3,7 @@ package at.htlle.pos4.prio_messagequeue;
 import java.util.Random;
 
 public class Consumer extends Thread {
+    //Push hat nicht funktioniert Test 2
     private final String name;
     private final PriorityMessageQueue queue;
     private final Random random = new Random();

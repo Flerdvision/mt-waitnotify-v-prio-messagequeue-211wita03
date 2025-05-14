@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
         PriorityMessageQueue queue = new PriorityMessageQueue(5);
-
+        //Push hat nicht funktioniert Test 2
         new Producer("Producer1", queue).start();
         new Producer("Producer2", queue).start();
         new Consumer("Consumer1", queue).start();
